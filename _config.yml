@@ -8,7 +8,8 @@ twitter_username: cjmerzbacher
 github_username:  cjmerzbacher
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: ronv/colorie
 plugins:
   - jekyll-feed
 
