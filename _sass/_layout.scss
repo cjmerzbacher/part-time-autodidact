@@ -1,14 +1,14 @@
 html {
   box-sizing: border-box;
-  margin:0; 
-  padding:0; 
+  margin:0;
+  padding:0;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 body {
     background-color: #edf2f7;
-    color: #495057;
+    color: #444545;
 }
 
 header, main {
@@ -41,42 +41,42 @@ header, main {
     }
 }
 .card:nth-child(1n) {
-  background: #96d0c3;
+  background: #3d70b2;
 }
 .card:nth-child(2n) {
-  background: #ef7d4d;
+  background: #aad0e6;
 }
 .card:nth-child(3n) {
-  background: #fbcfb9;
+  background: #6CA3E5;
 }
 .card:nth-child(4n) {
-  background: #fac14e;
+  background: #96D0C3;
 }
 
 .card:nth-child(5n + 1) {
-  background: #ef7d4d;
+  background: #aad0e6;
 }
 
 .card:nth-child(6n + 1) {
-  background: #ef7d4d;
+  background: #aad0e6;
 }
 
 .card:nth-child(7n +1) {
-  background: #fac14e;
+  background: #96D0C3;
 }
 
 
 .card:nth-child(4n + 1) {
-  background: #fac14e;
+  background: #96D0C3;
 }
 .card:nth-child(4n + 2) {
-  background: #fbcfb9;
+  background: #6CA3E5;
 }
 .card:nth-child(4n + 3) {
-  background: #ef7d4d;
+  background: #aad0e6;
 }
 .card:nth-child(4n + 4) {
-  background: #96d0c3;
+  background: #3d70b2;
 }
 
 .card {
@@ -102,7 +102,7 @@ header, main {
 	text-decoration: none;
 }
 
-.card p { 
+.card p {
   font-size: 0.9rem;
 }
 
@@ -121,7 +121,7 @@ header, main {
 .card .meta {
    padding: 2rem;
    display: flex;
-  
+
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
@@ -132,7 +132,7 @@ header, main {
 	padding: 2rem 3rem;
 	-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-	
+
 }
 
 .card {
